@@ -8,7 +8,7 @@ public class User {
     public User(String username, String password, String role) {
         this.username = username;
         this.password = password;
-        this.role = role;
+        this.role = role; // Role isinya "mahasiswa" atau "admin"
     }
 
     public String getUsername() {
