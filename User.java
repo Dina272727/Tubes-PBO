@@ -11,6 +11,7 @@ public class User {
         this.role = role; // Role isinya "mahasiswa" atau "admin"
     }
 
+    // getter username
     public String getUsername() {
         return username;
     }
@@ -19,6 +20,7 @@ public class User {
         return password.equals(inputPassword);
     }
 
+    // role getter
     public String getRole() {
         return role;
     }
